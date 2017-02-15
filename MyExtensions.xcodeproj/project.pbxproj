@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		4F625F451E530C8300386D9D /* MyExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F625F431E530C8300386D9D /* MyExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F625F4D1E530D0C00386D9D /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F625F4C1E530D0C00386D9D /* UIColorExtension.swift */; };
+		4F625F4F1E53139400386D9D /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F625F4E1E53139400386D9D /* UILabelExtension.swift */; };
+		4F625F511E53151300386D9D /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F625F501E53151300386D9D /* UIViewExtension.swift */; };
+		4F6E32601E545398001A1CAE /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6E325F1E545398001A1CAE /* UIImageViewExtension.swift */; };
+		4F6E32621E5453FB001A1CAE /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6E32611E5453FB001A1CAE /* StringExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +20,10 @@
 		4F625F431E530C8300386D9D /* MyExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyExtensions.h; sourceTree = "<group>"; };
 		4F625F441E530C8300386D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F625F4C1E530D0C00386D9D /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		4F625F4E1E53139400386D9D /* UILabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
+		4F625F501E53151300386D9D /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		4F6E325F1E545398001A1CAE /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		4F6E32611E5453FB001A1CAE /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 			isa = PBXGroup;
 			children = (
 				4F625F4C1E530D0C00386D9D /* UIColorExtension.swift */,
+				4F625F4E1E53139400386D9D /* UILabelExtension.swift */,
+				4F625F501E53151300386D9D /* UIViewExtension.swift */,
+				4F6E325F1E545398001A1CAE /* UIImageViewExtension.swift */,
+				4F6E32611E5453FB001A1CAE /* StringExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -143,6 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F625F511E53151300386D9D /* UIViewExtension.swift in Sources */,
+				4F625F4F1E53139400386D9D /* UILabelExtension.swift in Sources */,
+				4F6E32621E5453FB001A1CAE /* StringExtension.swift in Sources */,
+				4F6E32601E545398001A1CAE /* UIImageViewExtension.swift in Sources */,
 				4F625F4D1E530D0C00386D9D /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +323,7 @@
 				4F625F4A1E530C8300386D9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

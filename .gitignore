@@ -1,7 +1,9 @@
 
-#User
+# User
 MyExtensions.xcodeproj/xcuserdata/
 MyExtensions.xcodeproj/project.xcworkspace/
 
-#Temporary
+.DS_Store
+
+# Temporary
 *~
