@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F2D4B7F1E70516300FA7180 /* CGPointExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D4B7E1E70516300FA7180 /* CGPointExtension.swift */; };
 		4F625F451E530C8300386D9D /* MyExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F625F431E530C8300386D9D /* MyExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F625F4D1E530D0C00386D9D /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F625F4C1E530D0C00386D9D /* UIColorExtension.swift */; };
 		4F625F4F1E53139400386D9D /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F625F4E1E53139400386D9D /* UILabelExtension.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F2D4B7E1E70516300FA7180 /* CGPointExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPointExtension.swift; sourceTree = "<group>"; };
 		4F625F401E530C8300386D9D /* MyExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F625F431E530C8300386D9D /* MyExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyExtensions.h; sourceTree = "<group>"; };
 		4F625F441E530C8300386D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 		4F625F4B1E530CD900386D9D /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				4F2D4B7E1E70516300FA7180 /* CGPointExtension.swift */,
 				4F625F4C1E530D0C00386D9D /* UIColorExtension.swift */,
 				4F625F4E1E53139400386D9D /* UILabelExtension.swift */,
 				4F625F501E53151300386D9D /* UIViewExtension.swift */,
@@ -113,6 +116,7 @@
 		4F625F371E530C8300386D9D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Fong Zhou";
 				TargetAttributes = {
@@ -129,6 +133,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 4F625F361E530C8300386D9D;
 			productRefGroup = 4F625F411E530C8300386D9D /* Products */;
@@ -157,6 +162,7 @@
 			files = (
 				4F625F511E53151300386D9D /* UIViewExtension.swift in Sources */,
 				4F625F4F1E53139400386D9D /* UILabelExtension.swift in Sources */,
+				4F2D4B7F1E70516300FA7180 /* CGPointExtension.swift in Sources */,
 				4F6E32621E5453FB001A1CAE /* StringExtension.swift in Sources */,
 				4F6E32601E545398001A1CAE /* UIImageViewExtension.swift in Sources */,
 				4F625F4D1E530D0C00386D9D /* UIColorExtension.swift in Sources */,
